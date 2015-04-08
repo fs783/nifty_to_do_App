@@ -5,7 +5,7 @@
         private $category_id;
         private $id;
 
-        function __construct($category_id, $description, $id = null,)
+        function __construct($category_id, $description, $id = null)
         {
             $this->description = $description;
             $this->category_id = $category_id;
